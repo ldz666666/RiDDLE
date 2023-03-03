@@ -11,9 +11,24 @@ Author implementation of RiDDLE: Reversible and Diversified De-identification wi
 ## Results
 
 ### Curry
-https://user-images.githubusercontent.com/41360226/222616072-51a6bd6a-35fd-459c-8e4e-8d69d857f6b8.mp4
+
+
+https://user-images.githubusercontent.com/41360226/222632925-0c373a53-0309-4c8b-9deb-b3766702d65d.mov
+
+
+
+
+### Lebron
+
+
+https://user-images.githubusercontent.com/41360226/222632879-b2525e5f-d60e-4438-98c9-b9b6d71559f9.mov
+
+
 ### Jim
-https://user-images.githubusercontent.com/41360226/222616411-e0b5d2c9-5f0a-4e30-9d7d-4e7d563ab3a3.mp4
+
+
+https://user-images.githubusercontent.com/41360226/222632899-9941b004-6078-461c-b987-ccef903f4c5a.mov
+
 
 ## Usage 
 Soon
