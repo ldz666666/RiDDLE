@@ -1,4 +1,7 @@
 # RiDDLE (CVPR 2023)
+
+### [Arxiv](https://arxiv.org/abs/2303.05171)
+
 Author implementation of RiDDLE: Reversible and Diversified De-identification with Latent Encryptor 
 
 [Dongze Li](https://ldz666666.github.io/), Wei Wang, Kang Zhao, Jing Dong and Tieniu Tan 
