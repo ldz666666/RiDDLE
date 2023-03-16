@@ -16,7 +16,7 @@ Author implementation of RiDDLE: Reversible and Diversified De-identification wi
 ## Usage 
 
 ### Environment
-To set up a virtual environment, just `conda env create -f RiDDLE.yaml`
+To run the inference and the training scripts, first you need to set up a virtual environment by `conda env create -f RiDDLE.yaml`
 
 ### Inference
 To perform identity encryption and decryption, just `python coach_test.py`
@@ -24,12 +24,15 @@ To perform identity encryption and decryption, just `python coach_test.py`
 ### Train
 To train a latent encryptor, just `sh scripts/run_coach_id_pwd_same.sh`
 
+We also support Distributed Data Parallel (DDP) training, `sh scripts/run_coach_id_pwd_same_ddp.sh`. 
+
 ### Data and Pretrain models
-Our data and pretrain models can be found at [this link](https://pan.baidu.com/s/1Yf65Q8wah3N305MttL2B8g), password is sqp8
+Our data and pretrain models can be found at [this link](https://pan.baidu.com/s/1Yf65Q8wah3N305MttL2B8g), password is `sqp8`
 
 
- 
 ## Video De-identification Results
+
+We combine our method with [Stitch Tuning](https://github.com/rotemtzaban/STIT) to de-identify videos. 
 
 ### Curry
 
