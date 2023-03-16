@@ -1,7 +1,8 @@
 # RiDDLE (CVPR 2023)
 
 
-<img width="600" alt="RiDDLE" src="https://user-images.githubusercontent.com/41360226/225599374-39e81c5e-01b1-462a-82ab-0c5bde0152bb.png">
+<img width="500" alt="RiDDLE" src="https://user-images.githubusercontent.com/41360226/225599374-39e81c5e-01b1-462a-82ab-0c5bde0152bb.png">
+
 
 ### [Arxiv](https://arxiv.org/abs/2303.05171)
 
@@ -12,6 +13,8 @@ Author implementation of RiDDLE: Reversible and Diversified De-identification wi
 ## Abstract 
  This work presents RiDDLE, short for Reversible and Diversified De-identification with Latent Encryptor, to protect the identity information of people from being misused. Built upon a pre-learned StyleGAN2 generator, RiDDLE manages to encrypt and decrypt the facial identity within the latent space. The design of RiDDLE has three appealing properties. First, the encryption process is cipher-guided and hence allows diverse anonymization using different passwords. Second, the true identity can only be decrypted with the correct password, otherwise the system will produce another de-identified face to maintain the privacy. Third, both encryption and decryption share an efficient implementation, benefiting from a carefully tailored lightweight encryptor. Comparisons with existing alternatives confirm that our approach accomplishes the de-identification task with better quality, higher diversity, and stronger reversibility. We further demonstrate the effectiveness of RiDDLE in anonymizing videos. Code and models will be made publicly available.
 
+## Pipeline
+<img width="700" alt="RiDDLE_pipeline" src="https://user-images.githubusercontent.com/41360226/225602427-3a17a937-bce8-4b32-9f75-7151a0fd2966.png">
 
 ## Usage 
 
