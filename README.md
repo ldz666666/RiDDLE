@@ -16,7 +16,7 @@ Author implementation of RiDDLE: Reversible and Diversified De-identification wi
 ## Usage 
 
 ### Environment
-To set up a virtual environment, jsut `conda env create -f RiDDLE.yaml`
+To set up a virtual environment, just `conda env create -f RiDDLE.yaml`
 
 ### Inference
 To perform identity encryption and decryption, just `python coach_test.py`
