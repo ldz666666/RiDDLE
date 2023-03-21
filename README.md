@@ -61,7 +61,8 @@ If you found this repo useful, please cite
 @article{li2023riddle,
   title={RiDDLE: Reversible and Diversified De-identification with Latent Encryptor},
   author={Li, Dongze and Wang, Wei and Zhao, Kang and Dong, Jing and Tan, Tieniu},
-  journal={arXiv preprint arXiv:2303.05171},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month={June},
   year={2023}
 }
 ``` 
