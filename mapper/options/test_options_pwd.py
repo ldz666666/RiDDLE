@@ -20,7 +20,7 @@ class TestOptions:
 		self.parser.add_argument('--transformer_add_linear', default=True,action="store_false")		
 		self.parser.add_argument('--transformer_add_pos_embedding', default=True,action="store_false")		
 		self.parser.add_argument('--latent_path', default="embeddings/invert_w_256.pt", type=str, help="The id embedding for the training")
-		self.parser.add_argument('--image_path', default="/hd3/lidongze/data/ffhq", type=str, help="The id embedding for the training")
+		self.parser.add_argument('--image_path', default="/hd3/lidongze/data/ffhq/ffhqfirst10_images", type=str, help="The id embedding for the training")
 		self.parser.add_argument('--exp_dir', default="experiments/exp_test", type=str, help="The id embedding for the testing")
 		self.parser.add_argument('--image_size', default=256, type=int, help="The latents for the validation")
 		self.parser.add_argument('--pwd_num', default=6, type=int, help="The latents for the validation")

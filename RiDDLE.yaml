@@ -1,4 +1,4 @@
-name: STIT
+name: RiDDLE
 channels:
   - conda-forge
   - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main

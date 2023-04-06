@@ -64,7 +64,7 @@ class CoachTest:
                 shuffle=False,
                 num_workers=4,
                 pin_memory=True,
-                drop_last=True
+                drop_last=False
             )
         #image dataset related
         trans=transforms.Compose([
@@ -78,7 +78,7 @@ class CoachTest:
                 shuffle=False,
                 num_workers=4,
                 pin_memory=True,
-                drop_last=True
+                drop_last=False
             )
         #working dir
         self.exp_dir=self.opts.exp_dir
@@ -98,7 +98,7 @@ class CoachTest:
         opts= Namespace(**opts)
         net = pSp(opts)
         print(f'loaded e4e from {self.opts.e4e_model_weights}')
-        print(f'e4e styegan is from { self.opts.stylegan_weights}')
+        print(f'e4e stylegan is from { self.opts.stylegan_weights}')
         return net.to(self.device)
 
     def sample_w(self,b):

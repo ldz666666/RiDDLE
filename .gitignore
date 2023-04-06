@@ -7,12 +7,12 @@
 __pycache__
 .ipynb_checkpoints/
 interfacegan_directions/
-experiments/
+experiments/*
 mtcnn_pytorch/
 visualize/
 test_log/
 test_result/
 test_vis_result/
-pretrained_models/
+pretrained_models/*
 
 
