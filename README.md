@@ -58,7 +58,7 @@ https://user-images.githubusercontent.com/41360226/222632899-9941b004-6078-461c-
 ## Citation
 If you found this repo useful, please cite
 ```
-@article{li2023riddle,
+@inproceedings{li2023riddle,
   title={RiDDLE: Reversible and Diversified De-identification with Latent Encryptor},
   author={Li, Dongze and Wang, Wei and Zhao, Kang and Dong, Jing and Tan, Tieniu},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
@@ -66,3 +66,6 @@ If you found this repo useful, please cite
   year={2023}
 }
 ``` 
+
+## Acknowledgements
+Some parts of our code is based on [HairCLIP](https://github.com/wty-ustc/HairCLIP) and [e4e](https://github.com/omertov/encoder4editing), thanks for their great work.
