@@ -30,7 +30,7 @@ To train a latent encryptor, just `sh scripts/run_coach_id_pwd_same.sh`
 We also support Distributed Data Parallel (DDP) training, `sh scripts/run_coach_id_pwd_same_ddp.sh`. 
 
 ### Data and Pretrain models
-Our data and pretrain models can be found at [this link](https://pan.baidu.com/s/1Yf65Q8wah3N305MttL2B8g), password is `sqp8`
+Our data and pretrain models can be found at [baidudrive](https://pan.baidu.com/s/1Yf65Q8wah3N305MttL2B8g) password is `sqp8`, or [googledrive](https://drive.google.com/drive/folders/1lSudT5-eHi1W6ne2mCRLcE1QU539jsi5?usp=drive_link)
 
 
 ## Video De-identification Results
